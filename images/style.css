@@ -39,7 +39,7 @@ h3 {
 }
 
 #start1 {
-    padding: 150px 5px 30px 5px;
+    padding: 100px 5px 95px 5px;
 }
 
 .start p {
@@ -69,6 +69,16 @@ h3 {
 .grow {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 50px 50px 25px 230px;
+    grid-column-start: initial;
+}
+
+.growimg {
+    padding: 50px 50px 25px 105px;
+}
+
+.grow1 {
+    padding: 145px 39px 25px 50px;
 }
 
 .grow img {
@@ -80,9 +90,61 @@ h3 {
     text-align: center;
 }
 
-#build1 {
-    text-decoration: none;
-    text-align: center;
-    background-color: hsl(321, 100%, 78%);
+.build h1 {
+    padding: 20px 30px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 13px;
+    grid-gap: 100px;
+    background-image: url(bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 88px 10px 0px;
+    align-items: center;
+}
+
+.footer-icon {
+    padding: 10px 233px 10px 190px;
+}
+
+.footer-icon img {
+    padding: 10px 0px;
+}
+
+.newsletter p {
+    padding: 10px 398px 10px 0px;
+}
+
+.insub {
+    padding: 10px 289px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#insub1 {
+    width: 248px;
+    height: 25px;
+    border-radius: 6px;
+}
+
+#insub2 {
+    padding: 5px 18px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    background-color: hsl(321, 100%, 78%);
+}
+
+.newsletter h3 {
+    padding: 10px 0px;
+    text-transform: uppercase;
 }
